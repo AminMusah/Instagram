@@ -312,6 +312,7 @@ footer {
 
 .copy-right {
     text-transform: uppercase;
+    margin-right: -5px;
 }
 
 
@@ -324,14 +325,14 @@ footer {
 .explore-heading {
     display: flex;
     justify-content: space-between;
-    margin: 0 250px;
+    margin: 0 240px;
     padding: 20px 0;
     font-size: 13px;
 }
 
 .discover-box {
     display: flex;
-    margin: 0 240px;
+    margin: 0 230px;
     font-size: 11px;
 }
 
@@ -381,7 +382,7 @@ footer {
 
 .explore-intro {
     color: #999999;
-    margin-left: 245px;
+    margin-left: 240px;
     margin-top: 90px;
     cursor: pointer;
 }
@@ -390,33 +391,36 @@ footer {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
-    margin:0 240px;
+    margin:0 235px;
 }
 
 .explore-img {
-    width: 30%;
+    width: 31%;
     margin: 5px;
+    height: 300px;
 }
 
 .explore-vid {
-    width: 61%;
-    height: 400px;
+    width: 63%;
+    height: 300px;
     margin: 5px;
 }
 
 .explore-footer {
     display: flex;
     justify-content: space-between;
-    margin: 0 260px 0 230px;
+    margin: 0 260px 0 240px;
     padding: 20px 0;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 800;
+    width: 66%;
 }
 
 .footer-info {
     color:rgb(0, 106, 148);
     text-transform: uppercase;
     word-spacing: 10px;
+    margin-left: 4px;
 }
 
 .fixed {
@@ -516,7 +520,7 @@ footer {
 
 .user-profile {
     display: flex;
-    margin: 30px auto;
+    margin: 60px auto;
 }
 
 .user-profile a {
@@ -529,20 +533,19 @@ footer {
     width: 30%;
     border-radius: 50%;
     margin-left: 300px;
-    margin-top: 30px;
     cursor: pointer;
 }
 
 .user-info {
     width: 70%;
-    margin-top: 45px;
+    color: #484848;
 }
 
 .name {
     font-size: 30px;
     position: relative;
     top: 5px;
-    font-family: sans-serif;
+    font-family: serif;
 }
 
 .user-info div {
@@ -575,8 +578,8 @@ footer {
 
 .user-post {
     border-top: 1px solid rgb(207, 207, 207);
-    width: 65%;
-    margin: 5px 250px 0 250px;
+    width: 66%;
+    margin: 5px 250px 0 245px;
 }
 
 .nav-bar {
@@ -598,6 +601,10 @@ footer {
 
 .user-upload div {
     width: 33%;
+}
+
+.user-upload img {
+    height: 300px;
 }
 
 .fa-th {
