@@ -613,3 +613,71 @@ footer {
     padding-top: 19px;
     margin-top: -22px;
 }
+
+@media screen and (max-width:1224px){
+    nav {
+        display: none;
+    }
+    
+    .search-input {
+        display: none;
+    }
+    
+    aside {
+        display: none;
+    }
+
+    h1 {
+        text-align: center;
+        margin: auto;
+    }
+
+    .story {
+        overflow: hidden;
+        width: 70%;
+    }
+
+    .image-wrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .image-wrapper {
+        margin: 0;
+        width: 100%;
+    }
+
+    .story {
+        overflow: visible;
+        margin: 0;
+        width: 100%;
+        border: none;
+    }
+
+    .new-story {
+        margin: 2px;
+    }
+
+    .image-container {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .image-heading {
+        border: none;
+    }
+
+    .comment-input {
+        display: none;
+    }
+
+    .comment-update {
+        margin-bottom: -75px;
+        border: none;
+    }
+
+    .image-footer {
+        border: none;
+    }
+}
