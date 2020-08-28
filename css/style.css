@@ -615,6 +615,18 @@ footer {
     margin-top: -22px;
 }
 
+.b-nav {
+    display: none;
+}
+
+.mobile-dm {
+    display: none;    
+}
+
+.fa-camera {
+    display: none;
+}
+
 @media screen and (max-width:1224px){
     nav {
         display: none;
@@ -685,5 +697,39 @@ footer {
 
     .image-footer {
         border: none;
+    }
+
+    .b-nav {
+        font-size: 23px;
+        width: 100%;
+        display: flex;
+        letter-spacing: 40px;
+        padding: 5px;
+        position: sticky;
+        bottom: 0px;
+        border-top: 1px solid rgb(207, 207, 207);
+        background-color: #fff;
+    }
+
+    .b-nav a {
+        margin-left: 30px;
+        color: #111111;
+    }
+
+    header .fa-paper-plane {
+        display: block;
+        font-size: 23px;
+        margin-right: 10px;
+    }
+
+    header .fa-camera {
+        display: block;
+        margin-left: 10px;
+        font-size: 23px;
+    }
+
+    .pro {
+        height: 23px;
+        width: 23px;
     }
 }
