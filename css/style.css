@@ -702,6 +702,8 @@ footer {
         font-size: 23px;
         width: 100%;
         display: flex;
+        justify-content: space-around;
+        align-items: center;
         padding: 5px;
         position: sticky;
         bottom: 0px;
@@ -710,7 +712,6 @@ footer {
     }
 
     .b-nav a {
-        margin: 0px 35px 0px 35px;
         color: #111111;
     }
 
@@ -733,12 +734,8 @@ footer {
 }
 
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:420px) {
     body {
         height: 300rem;
     }
-
-    .b-nav a {
-        margin: 0px 10px 0px 35px;
-    }  
 }
