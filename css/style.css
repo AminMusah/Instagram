@@ -146,6 +146,14 @@ img {
     margin: 0;
 }
 
+.p-info {
+    width: 77%;
+    font-size: 13px;
+    margin-top: -2px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
 .profile-name {
     cursor: pointer;
     font-size: 14px;
@@ -458,6 +466,11 @@ footer {
     overflow-y: scroll;
 }
 
+.inbox-users > div{
+    display: flex;
+    justify-content: start;
+}
+
 .users{
     width: 60px;
     border-radius: 50%;
@@ -626,6 +639,13 @@ footer {
     display: none;
 }
 
+.fa-angle-left {
+    display: none;
+}
+.fa-video {
+    display: none;
+}
+
 @media screen and (max-width:1224px){
     nav {
         display: none;
@@ -651,6 +671,70 @@ footer {
 
     .image-wrapper {
         width: 90%;
+    }
+
+    .inbox-messages {
+        display: none;
+    }
+
+    .inbox-user-container {
+        width: 100%;
+    }
+
+    .fa-angle-left {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    .fa-video {
+        display: flex;
+    }
+
+    header .fa-paper-plane {
+        display: block;
+        font-size: 23px;
+        margin-right: 10px;
+    }
+
+    header .fa-camera {
+        display: block;
+        margin-left: 10px;
+        font-size: 23px;
+    }
+
+    .inbox-head p {
+        display: none;
+    }
+
+    .inbox-header {
+        display: none;
+    }
+
+    .inbox-wrapper {
+        display: flex;
+        border: none;
+        border-radius: none;
+        margin: 0;
+    }
+
+    .inbox-head {
+        height: 50px;
+        font-size: 23px;
+    }
+
+    .inbox-head div {
+        width: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .inbox-users {
+        height: 705px;
+    }
+
+    .cam {
+        display: block;
     }
 }
 
@@ -715,21 +799,9 @@ footer {
         color: #111111;
     }
 
-    header .fa-paper-plane {
-        display: block;
-        font-size: 23px;
-        margin-right: 10px;
-    }
-
-    header .fa-camera {
-        display: block;
-        margin-left: 10px;
-        font-size: 23px;
-    }
-
     .pro {
-        height: 23px;
-        width: 23px;
+        height: 25px;
+        width: 25px;
     }
 }
 
