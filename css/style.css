@@ -642,8 +642,13 @@ footer {
 .fa-angle-left {
     display: none;
 }
+
 .fa-video {
     display: none;
+}
+
+.p-body {
+    height: 100vh;
 }
 
 @media screen and (max-width:1224px){
@@ -735,6 +740,33 @@ footer {
 
     .cam {
         display: block;
+        margin-top: 20px
+    }
+
+    .user-profile {
+        margin: 60px 0px;
+    }
+
+    .user-photo {
+        width: 140px;
+        margin-left: 20px;
+    }
+
+    .user-post {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .user-upload img {
+        height: 250px;
+    }
+
+    .nav-bar {
+        margin: 20px;
+    }
+
+    .explore-footer {
+        display: none;
     }
 }
 
