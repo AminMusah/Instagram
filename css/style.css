@@ -33,6 +33,14 @@ h1 {
     margin: 5px 0 0 240px;
 }
 
+.home-logo {
+    margin-left: 90px;
+}
+
+.s-input {
+    margin-left: -60px;
+}
+
 header div{
     margin: 15px 0;
 }
